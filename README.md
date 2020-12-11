@@ -1,2 +1,4 @@
-# extension-of-a-file
-submitted by Bhumika Murarka. Contains extension code
+E = input("enter filename:")
+ext =E.split('.')[1]
+if ext=='py':
+    print("python")
